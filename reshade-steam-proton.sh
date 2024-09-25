@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/env/bin bash
 cat > /dev/null <<LICENSE
     Copyright (C) 2021-2022  kevinlekiller
     

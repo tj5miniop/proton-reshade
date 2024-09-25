@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # Wrapper script for reshade-linux.sh for Steam installed from Flatpak.
 
