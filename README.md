@@ -1,36 +1,9 @@
-# reshade-linux
-Bash script to download ReShade and the shaders and link them to games running with wine or proton on Linux.  
+# reshade on linux - credit goes to kevinlekiller for the original code!
 
-## Usage
 
-### Quick:
-Download the script:
+## What does this fork change from upstream
 
-    curl -LO https://github.com/kevinlekiller/reshade-steam-proton/raw/main/reshade-linux.sh
-Make it executable:
+Simply put, I maintain this fork to make sure this script works for (most) DirectX and Direct3D titles running under wine/proton. ## DISCLAIMER - vulkan is currently not supported thorugh this script, an alternate method is currently in the works
 
-    chmod u+x reshade-linux.sh
-Execute the script:
-
-    ./reshade-linux.sh
-
-### Detailed:
-For detailed usage, follow the instructions in the script's source:
-
-https://github.com/kevinlekiller/reshade-steam-proton/blob/main/reshade-linux.sh#L21
-
-## Alternatives
-
-### vkBasalt:
-https://github.com/DadSchoorse/vkBasalt
-
-For native Linux Vulkan games, Windows games which can run through DXVK (D3D9 / D3D10 / D3D11) and Windows games which can run through VKD3D (D3D12).
-
-### vkBasalt through Gamescope:
-
-Since [gamescope](https://github.com/Plagman/gamescope/) can use Vulkan, you can run vkBasalt on gamescope itself, instead of on the game.
-
-## Misc
-`reshade-linux.sh` is a newer script which works with any Windows game running under wine or proton.  
-`reshade-linux-flatpak.sh` is a script which executes `reshade-linux.sh` with the correct path for Steam installed from Flatpak.  
-`reshade-steam-proton.sh` (obsolete - will be removed eventually) is a older script which relies on protontricks / only works with Steam.
+## other info -
+this is packaged in my repo for ease of use on all archlinux/arch-based systems. Every time a new major release is made, the package will be update accordingly
